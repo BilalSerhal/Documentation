@@ -1,0 +1,343 @@
+header{
+    background-color: grey;
+}
+#contact h3{
+    display: none;
+}
+h3::before{
+    height: 15px;
+    width: 15px;
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.experience-details{
+    color: rgb(212, 185, 185);
+}
+h1 , h2{
+    color: red;
+    text-align: center;
+    padding-right: 500px;
+    background-color: grey;
+}
+header figure{
+
+    position:absolute; 
+    left: 780px; 
+    top: 4px;
+    /* align-self: center; */
+}
+
+.contacts{
+    display: grid;
+    grid-template-rows: min-content;
+    flex-direction: row;
+    position: absolute;
+    top: -45px;
+    right: -15px;
+    margin-top: 60px;
+    margin-right: 350px;
+}
+.contact-type{
+    color: white;
+    background-color:red;
+    width: 100px;
+}
+.contact-value{
+    background-color: black;
+    display: block;
+    width: 400px;
+}
+figure{
+   
+align-items: center;
+align-self: center;
+
+}
+h1 h2{
+    padding-left: 15px;
+}
+
+
+dl{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+}
+dd{
+    margin:0px
+}
+
+#competencies {
+    float: right;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-right: 500px;
+}
+#about {
+float: left;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 300px;
+    
+}
+.experience-type{
+    color: red;
+}
+.experience-institution{
+    color: red;
+
+}
+#experiences{
+    margin-top: 157px;
+    float: left;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 300px;
+}
+
+#education{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 300px;
+}
+
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 300px;
+}
+h3{
+    border-style: groove;
+    border-color: rgb(228, 216, 216);
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-width: 2px;
+}
+.skill{
+    background-color: #cccccc;
+    margin-top: 5px;
+    height:40px
+}
+.skills-primary [data-skill="5"] span{
+    background-color: red;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    width:15%;
+    padding: 5px;
+
+}
+.skills-primary [data-skill="3"] span{
+    background-color: red;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    width:10%;
+    padding: 5px;
+
+}
+.skills-primary [data-skill="1"] span{
+    background-color: red;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    width:5%;
+    padding: 5px;
+
+}
+.skills-secondary [data-skill="9"] span{
+    background-color: red;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    width:20%;
+    padding: 5px;
+
+}
+.skills-secondary [data-skill="5"] span{
+    background-color: red;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    width:10%;
+    padding: 5px;
+
+}
+.skills-secondary [data-skill="7"] span{
+    background-color: red;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    width:15%;
+    padding: 5px;
+
+}
+@media screen and (min-width:620px){
+    #contact h3{
+        display: none;
+    }
+
+h3::before{
+    height: 15px;
+    width: 15px;
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 50%;
+}
+header figure{
+
+    position:absolute; 
+    left: 600px; 
+    top: 4px;
+
+}
+.contacts{
+    display: grid;
+    grid-template-rows: min-content;
+    flex-direction: row;
+    position: absolute;
+    top: -45px;
+    right: -15px;
+    margin-top: 60px;
+    margin-right: 350px;
+}
+.contact-type{
+    color: white;
+    background-color:red;
+    width: 40px;
+}
+.contact-value{
+    background-color: black;
+    display: block;
+    width: 100px;
+}
+#competencies {
+    float: right;
+    flex-direction: column;
+    justify-items: center;
+    width: 300px;
+    margin-right: 300px;
+}
+#about {
+    float: left;
+        flex-direction: column;
+        justify-items: center;
+        width: 500px;
+        margin-left: 150px;
+    }
+
+#experiences{
+    margin-top: 157px;
+    float: left;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 150px;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 150px;
+}
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 150px;
+}
+
+
+@media screen and (max-width:1020px){
+    #contact h3{
+        display: none;
+    }
+
+h3::before{
+    height: 15px;
+    width: 15px;
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 50%;
+}
+header figure{
+
+    position:absolute; 
+    left: 700px; 
+    top: 4px;
+    margin-right: 80%;
+}
+.contacts{
+    display: grid;
+    grid-template-rows: min-content;
+    flex-direction: row;
+    position: absolute;
+    top: -45px;
+    right: -15px;
+    margin-top: 60px;
+    margin-right: 350px;
+}
+.contact-type{
+    color: white;
+    background-color:red;
+    width: 40px;
+}
+.contact-value{
+    background-color: black;
+    display: block;
+    width: 100px;
+}
+#competencies {
+    float: right;
+    flex-direction: column;
+    justify-items: center;
+    width: 300px;
+    margin-right: 560px;
+}
+#about {
+    float: left;
+        flex-direction: column;
+        justify-items: center;
+        width: 500px;
+        margin-left: 150px;
+    }
+
+#experiences{
+    margin-top: 157px;
+    float: left;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 150px;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 150px;
+}
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-left: 150px;
+}
