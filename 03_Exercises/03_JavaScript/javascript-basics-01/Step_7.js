@@ -1,5 +1,5 @@
-var shoe_size= prompt("What's your shoe_size?");
-function multiplyBy(){
-    shoe_size = document.getElementById("shoe_size").value;
-    document.getElementById("result").innerHTML = shoe_size * 2;
+function total(){
+    num1 = document.getElementById("shoe_size").value;
+    num2 = document.getElementById("year").value;
+document.getElementById("result").innerHTML = (((num1 *2 +5) * 50)-num2)+1766;
 }
